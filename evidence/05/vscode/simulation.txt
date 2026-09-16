@@ -1,0 +1,9 @@
+[1] PASS 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab1_05_comparator4\build\sim\run-4099ee1562b74480ae35cb10d2f52a96\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB1_PASS compare_4 cases=256
+C:\Users\sumin\lab1_05_comparator4\sim\tb_compare_4.sv:19: $finish called at 2560000 (1ps)
+
+[2] FAIL 로그
+FATAL: C:\Users\sumin\lab1_05_comparator4\sim\tb_compare_4.sv:14: FAIL compare_4 vector=0 expected=2actual=0
+       Time: 10000  Scope: tb_compare_4
